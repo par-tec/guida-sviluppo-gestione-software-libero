@@ -17,7 +17,7 @@ diretti interessati.
 Comunicazioni pubbliche e aperte danno trasparenza al governo e alla
 gestione dei progetti di *software* libero all’interno di tutta la community.
 
-Effettuare una contribuzione
+Contribuire
 ----------------------------
 
 I passaggi necessari per inviare un contributo ad un repository pubblico
@@ -42,7 +42,7 @@ desiderate.
 A questo punto all’interno della piattaforma di code-hosting scelta sarà
 possibile aprire una Pull o Merge Request e richiedere una revisione.
 
--  **Review**
+-  **Code Review**
 
 Il maintainer del software verrà notificato in modo da effettuare dei
 controlli (review) per valutare la proposta. In questa fase potrà

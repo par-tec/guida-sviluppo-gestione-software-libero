@@ -10,3 +10,4 @@ Per chi sviluppa il software
   per-chi-sviluppa-il-software/rilasciare-software-libero.rst
   per-chi-sviluppa-il-software/gestire-un-software-nel-suo-ciclo-di-vita-1.rst
   per-chi-sviluppa-il-software/contribuire-al-software-libero-sviluppato-da-altri-2.rst
+  per-chi-sviluppa-il-software/git-flow-e-modelli-alternativi-3.rst

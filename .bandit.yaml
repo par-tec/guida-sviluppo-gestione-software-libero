@@ -14,6 +14,11 @@ exclude_dirs:
  - venv
  - tests
 
+skips:
+- B404  # Allow subprocess for mmdc.py
+- B603
+- B607
+
 # Skip assert inside test files.
 assert_used:
   skips:
