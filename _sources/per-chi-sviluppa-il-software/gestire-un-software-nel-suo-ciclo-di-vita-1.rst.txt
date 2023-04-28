@@ -261,7 +261,10 @@ modifiche al codice.
 
 Tali contributi possono avvenire tramite un meccanismo chiamato *Pull
 Request (PR)* o *Merge Request* (la nomenclatura varia al variare della
-piattaforma utilizzata per la pubblicazione). La *Pull Request* è una
+piattaforma utilizzata per la pubblicazione).
+Di seguito useremo sempre il termine prevalente *Pull Request*,
+riservando il termine *Merge* all'integrazione delle modifiche.
+La *Pull Request* è una
 richiesta, fatta all’autore originale di un software, di includere
 modifiche al suo progetto.
 
@@ -278,7 +281,7 @@ per i progetti che coinvolgono una grande comunità di sviluppatori.
 Tuttavia è buona norma dotarsi di tali strumenti fin dall’inizio dello
 sviluppo.
 
-Inoltre, ogni modifica proposta tramite il meccanismo delle Pull/Merge
+Inoltre, ogni modifica proposta tramite il meccanismo delle Pull
 Request deve “passare” una serie di test automatici prima di essere
 anche solo presa in considerazione dai maintainer. I processi di CI
 rappresentano un supporto di fondamentale importanza sia in fase di

@@ -14,6 +14,9 @@
   <!-- Relations -->
   <link rel="index" title="Indice" href="../index.html">
   <link rel="top" title="Python  documentation" href="../index.html">
+  <link rel="up" title="Per chi sviluppa il software" href="../per-chi-sviluppa-il-software.html">
+  <link rel="next" title="Bibliografia / Sitografia" href="../bibliografia-sitografia.html">
+  <link rel="prev" title="Gestire un software nel suo ciclo di vita" href="gestire-un-software-nel-suo-ciclo-di-vita-1.html">
 
   
   
@@ -573,7 +576,7 @@
       </ul>
       
       <p class="caption" role="heading"><span class="caption-text">Indice dei contenuti</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../introduzione.html"><strong>Introduzione</strong></a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../introduzione.html#cose-la-guida-allo-sviluppo-e-alla-gestione-di-software-libero">Cos’è la guida allo sviluppo e alla gestione di software libero</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../introduzione.html#a-cosa-serve-questa-guida">A cosa serve questa guida</a></li>
@@ -620,7 +623,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../per-chi-sviluppa-il-software.html">Per chi sviluppa il software</a><ul>
+<li class="toctree-l1 current"><a class="reference internal" href="../per-chi-sviluppa-il-software.html">Per chi sviluppa il software</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="a-chi-si-rivolge-questo-capitolo-2.html">A chi si rivolge questo capitolo?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="quando-devo-rilasciare-il-mio-software.html">Quando devo rilasciare il mio software?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="rilasciare-software-libero.html">Rilasciare software libero</a><ul>
@@ -637,6 +640,13 @@
 <li class="toctree-l3"><a class="reference internal" href="gestire-un-software-nel-suo-ciclo-di-vita-1.html#issue">Issue</a></li>
 <li class="toctree-l3"><a class="reference internal" href="gestire-un-software-nel-suo-ciclo-di-vita-1.html#accettare-i-contributi-dopo-il-rilascio">Accettare i contributi dopo il rilascio</a></li>
 <li class="toctree-l3"><a class="reference internal" href="gestire-un-software-nel-suo-ciclo-di-vita-1.html#integrazione-continua-continuous-integration">Integrazione Continua (Continuous Integration)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Git Flow e modelli alternativi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fare-una-pr">Fare una PR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#modelli-alternativi">Modelli alternativi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pre-commit">pre-commit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#continuous-integration">Continuous Integration</a></li>
 </ul>
 </li>
 </ul>
@@ -716,7 +726,7 @@
         </ul>
         
         <p class="caption" role="heading"><span class="caption-text">Indice dei contenuti</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../introduzione.html"><strong>Introduzione</strong></a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../introduzione.html#cose-la-guida-allo-sviluppo-e-alla-gestione-di-software-libero">Cos’è la guida allo sviluppo e alla gestione di software libero</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../introduzione.html#a-cosa-serve-questa-guida">A cosa serve questa guida</a></li>
@@ -763,7 +773,7 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../per-chi-sviluppa-il-software.html">Per chi sviluppa il software</a><ul>
+<li class="toctree-l1 current"><a class="reference internal" href="../per-chi-sviluppa-il-software.html">Per chi sviluppa il software</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="a-chi-si-rivolge-questo-capitolo-2.html">A chi si rivolge questo capitolo?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="quando-devo-rilasciare-il-mio-software.html">Quando devo rilasciare il mio software?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="rilasciare-software-libero.html">Rilasciare software libero</a><ul>
@@ -780,6 +790,13 @@
 <li class="toctree-l3"><a class="reference internal" href="gestire-un-software-nel-suo-ciclo-di-vita-1.html#issue">Issue</a></li>
 <li class="toctree-l3"><a class="reference internal" href="gestire-un-software-nel-suo-ciclo-di-vita-1.html#accettare-i-contributi-dopo-il-rilascio">Accettare i contributi dopo il rilascio</a></li>
 <li class="toctree-l3"><a class="reference internal" href="gestire-un-software-nel-suo-ciclo-di-vita-1.html#integrazione-continua-continuous-integration">Integrazione Continua (Continuous Integration)</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Git Flow e modelli alternativi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fare-una-pr">Fare una PR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#modelli-alternativi">Modelli alternativi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pre-commit">pre-commit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#continuous-integration">Continuous Integration</a></li>
 </ul>
 </li>
 </ul>
@@ -812,11 +829,18 @@
             in consultazione
           </div>-->
           
+            <div class="footer-buttons footer-buttons--prev" role="navigation" aria-label="footer navigation">
+                <a href="gestire-un-software-nel-suo-ciclo-di-vita-1.html" class="" title="Gestire un software nel suo ciclo di vita" accesskey="p" rel="prev"> Torna a Gestire un software nel suo ciclo di vita</a>
+            </div>
+          
           
   <section id="git-flow-e-modelli-alternativi">
 <span id="git-flow-e-modelli-alternativi-3"></span><h1>Git Flow e modelli alternativi<a class="headerlink" href="#git-flow-e-modelli-alternativi" title="Permalink to this headline">¶</a></h1>
 <p>Questa sezione mostra come utilizzare il git flow per contribuire ad un progetto open source,
 ed è destinata ad una platea di sviluppatori che hanno familiarità con git.</p>
+<p>Le considerazioni sono valide non solo per i progetti open source,
+ma per tutti i progetti che hanno una durata di vita lunga e/o
+che sono sviluppati da più persone.</p>
 <section id="fare-una-pr">
 <h2>Fare una PR<a class="headerlink" href="#fare-una-pr" title="Permalink to this headline">¶</a></h2>
 <p>Per mantenere il codice pulito e coerente nel tempo,
@@ -941,6 +965,10 @@ quale pypi (python package index), maven central, o in OCI image registry.</p>
 
 
           
+            <div class="footer-buttons footer-buttons--next" role="navigation" aria-label="footer navigation">
+                  <a href="../bibliografia-sitografia.html" class="" title="Bibliografia / Sitografia" accesskey="n" rel="next">Bibliografia / Sitografia</a>
+              </div>
+            
           </div>
 
         </div>
@@ -1141,6 +1169,8 @@ var DOCUMENTATION_OPTIONS = {
 <script type="text/javascript" src="../_static/documentation_options.js"></script>
 <script type="text/javascript" src="../_static/underscore.js"></script>
 <script type="text/javascript" src="../_static/doctools.js"></script>
+<script type="text/javascript" src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+<script type="text/javascript" src="../None"></script>
   
   <script type="text/javascript">
   <!-- Google analytics -->

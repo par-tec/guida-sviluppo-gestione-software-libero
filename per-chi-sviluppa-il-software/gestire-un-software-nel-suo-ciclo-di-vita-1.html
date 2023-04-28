@@ -15,7 +15,7 @@
   <link rel="index" title="Indice" href="../index.html">
   <link rel="top" title="Python  documentation" href="../index.html">
   <link rel="up" title="Per chi sviluppa il software" href="../per-chi-sviluppa-il-software.html">
-  <link rel="next" title="Bibliografia / Sitografia" href="../bibliografia-sitografia.html">
+  <link rel="next" title="Git Flow e modelli alternativi" href="git-flow-e-modelli-alternativi-3.html">
   <link rel="prev" title="Rilasciare software libero" href="rilasciare-software-libero.html">
 
   
@@ -642,6 +642,13 @@
 <li class="toctree-l3"><a class="reference internal" href="#integrazione-continua-continuous-integration">Integrazione Continua (Continuous Integration)</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="git-flow-e-modelli-alternativi-3.html">Git Flow e modelli alternativi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="git-flow-e-modelli-alternativi-3.html#fare-una-pr">Fare una PR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="git-flow-e-modelli-alternativi-3.html#modelli-alternativi">Modelli alternativi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="git-flow-e-modelli-alternativi-3.html#pre-commit">pre-commit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="git-flow-e-modelli-alternativi-3.html#continuous-integration">Continuous Integration</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../bibliografia-sitografia.html">Bibliografia / Sitografia</a></li>
@@ -783,6 +790,13 @@
 <li class="toctree-l3"><a class="reference internal" href="#issue">Issue</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#accettare-i-contributi-dopo-il-rilascio">Accettare i contributi dopo il rilascio</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#integrazione-continua-continuous-integration">Integrazione Continua (Continuous Integration)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="git-flow-e-modelli-alternativi-3.html">Git Flow e modelli alternativi</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="git-flow-e-modelli-alternativi-3.html#fare-una-pr">Fare una PR</a></li>
+<li class="toctree-l3"><a class="reference internal" href="git-flow-e-modelli-alternativi-3.html#modelli-alternativi">Modelli alternativi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="git-flow-e-modelli-alternativi-3.html#pre-commit">pre-commit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="git-flow-e-modelli-alternativi-3.html#continuous-integration">Continuous Integration</a></li>
 </ul>
 </li>
 </ul>
@@ -1042,7 +1056,10 @@ contingente originale che ha sviluppato il software, apportino delle
 modifiche al codice.</p>
 <p>Tali contributi possono avvenire tramite un meccanismo chiamato <em>Pull
 Request (PR)</em> o <em>Merge Request</em> (la nomenclatura varia al variare della
-piattaforma utilizzata per la pubblicazione). La <em>Pull Request</em> è una
+piattaforma utilizzata per la pubblicazione).
+Di seguito useremo sempre il termine prevalente <em>Pull Request</em>,
+riservando il termine <em>Merge</em> all’integrazione delle modifiche.
+La <em>Pull Request</em> è una
 richiesta, fatta all’autore originale di un software, di includere
 modifiche al suo progetto.</p>
 <p>Quando una nuova Pull Request viene aperta, la piattaforma notifica al
@@ -1056,7 +1073,7 @@ test automatizzati dell’intera code base. Ciò è particolarmente utile
 per i progetti che coinvolgono una grande comunità di sviluppatori.
 Tuttavia è buona norma dotarsi di tali strumenti fin dall’inizio dello
 sviluppo.</p>
-<p>Inoltre, ogni modifica proposta tramite il meccanismo delle Pull/Merge
+<p>Inoltre, ogni modifica proposta tramite il meccanismo delle Pull
 Request deve “passare” una serie di test automatici prima di essere
 anche solo presa in considerazione dai maintainer. I processi di CI
 rappresentano un supporto di fondamentale importanza sia in fase di
@@ -1135,7 +1152,7 @@ coltellino svizzero dello sviluppo di <em>software</em> libero.</p>
 
           
             <div class="footer-buttons footer-buttons--next" role="navigation" aria-label="footer navigation">
-                  <a href="../bibliografia-sitografia.html" class="" title="Bibliografia / Sitografia" accesskey="n" rel="next">Bibliografia / Sitografia</a>
+                  <a href="git-flow-e-modelli-alternativi-3.html" class="" title="Git Flow e modelli alternativi" accesskey="n" rel="next">Git Flow e modelli alternativi</a>
               </div>
             
           </div>
@@ -1338,6 +1355,8 @@ var DOCUMENTATION_OPTIONS = {
 <script type="text/javascript" src="../_static/documentation_options.js"></script>
 <script type="text/javascript" src="../_static/underscore.js"></script>
 <script type="text/javascript" src="../_static/doctools.js"></script>
+<script type="text/javascript" src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+<script type="text/javascript" src="../None"></script>
   
   <script type="text/javascript">
   <!-- Google analytics -->

@@ -6,6 +6,10 @@ Git Flow e modelli alternativi
 Questa sezione mostra come utilizzare il git flow per contribuire ad un progetto open source,
 ed è destinata ad una platea di sviluppatori che hanno familiarità con git.
 
+Le considerazioni sono valide non solo per i progetti open source,
+ma per tutti i progetti che hanno una durata di vita lunga e/o
+che sono sviluppati da più persone.
+
 Fare una PR
 -----------
 
